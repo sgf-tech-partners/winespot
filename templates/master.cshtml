@@ -20,7 +20,7 @@
 						<span><a href="index.html">home</a></span>
 					</li>
 					<li>
-						<span><a href="about.html">about us</a></span>
+						<span><a href="about.cshtml">about us</a></span>
 					</li>
 					<li>
 						<span><a href="events.html">events</a></span>
@@ -100,7 +100,34 @@
 					</form>
 				</div>
 			</div>
-			@RenderBody()
+            <div id="content">
+			    @RenderBody()
+                <div id="footer">
+					<ul>
+						<li class="selected">
+							<a href="index.html">home</a>
+						</li>
+						<li>
+							<a href="wines.html">our wines</a>
+						</li>
+						<li>
+							<a href="history.html">history</a>
+						</li>
+						<li>
+							<a href="about.html">about</a>
+						</li>
+						<li>
+							<a href="blog.html">blog</a>
+						</li>
+						<li>
+							<a href="contact.html">contact</a>
+						</li>
+					</ul>
+					<p>
+						&copy; <a href="">Paredes Winery</a> 2032. All Rights Reserved.
+					</p>
+				</div>
+            </div>
 		</div>
 	</div>
 </body>
