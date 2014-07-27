@@ -1013,3 +1013,11 @@ body {
     float: right;
     margin: 25px 42px 25px 25px !important;
 }
+#cal {
+    width:500px;
+    height:500px;
+    position:relative;
+    left:0px;
+    top:0px;
+    -ms-zoom:0.7;
+}
