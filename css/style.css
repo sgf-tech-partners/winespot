@@ -1001,3 +1001,15 @@ body {
 	margin: 0 24px 0 0;
 	padding: 0;
 }
+#aboutmain1 {
+    float: right;
+    margin: 25px 42px 25px 25px !important;
+}
+#aboutmain2 {
+    float: left;
+    margin: 25px 25px 25px 25px !important;
+}
+#sweetspotcakery {
+    float: right;
+    margin: 25px 42px 25px 25px !important;
+}
