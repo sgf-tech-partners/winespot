@@ -1021,3 +1021,9 @@ body {
     top:0px;
     -ms-zoom:0.7;
 }
+.winebasket {
+    float: right;
+    max-width: 250px; 
+    max-height: 250px;
+    padding: 25px !important;
+}
