@@ -1,4 +1,8 @@
 ﻿@{
+    string page = Request.Url.LocalPath.ToString();
+    string selected = "class = selected";
+    string p = (string)"p";
+    string q = (string)"p";
 }
 
 <!DOCTYPE html>
@@ -21,28 +25,28 @@
                 <div id="sidebar">
                     <a href="index.html" class="logo"><img src="images/winespot.png" alt=""></a>
                     <ul>
-                        <li>
-                            <span><a href="/">Home</a></span>
+                        <li @if (page == "/"){ @selected;}>
+                            <span></span><a href="/">Home</a></span>
                         </li>
-                        <li>
+                        <li @if (page == "/About"){ @selected;}>
                             <span><a href="About">About Us</a></span>
                         </li>
-                        <li>
+                        <li @if (page == "/Events"){ @selected;}>
                             <span><a href="Events">Events</a></span>
                         </li>
-                        <li>
+                        <li @if (page == "/WineClub"){ @selected;}>
                             <span><a href="WineClub">Wine Club</a></span>
                         </li>
-                        <li>
+                        <li @if (page == "/Wines"){ @selected;}>
                             <span><a href="Wines">Our Wines</a></span>
                         </li>
-                        <li>
+                        <li @if (page == "/Gifts"){ @selected;}>
                             <span><a href="Gifts">Gifts</a></span>
                         </li>
-                        <li>
+                        <li @if (page == "/MailingList"){ @selected;}>
                             <span><a href="MailingList">Mailing List</a></a></span>
                         </li>
-                        <li>
+                        <li @if (page == "/ContactUs"){ @selected;}>
                             <span><a href="ContactUs">Contact Us</a></span>
                         </li>
                     </ul>

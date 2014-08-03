@@ -89,17 +89,8 @@ body {
 #sidebar > ul li a:hover {
 	color: #ebcdd4;
 }
-#sidebar > ul li.selected span {
-	background: url(../images/brace-left.png) no-repeat bottom left;
-	display: inline-block;
-	margin: 0;
-	padding: 0 0 0 20px;
-}
 #sidebar > ul li.selected a {
-	background: url(../images/brace-right.png) no-repeat bottom right;
 	color: #ebcdd4;
-	display: inline-block;
-	padding: 0 20px 0 0;
 }
 #sidebar .contact {
 	background: #e0dddd;
