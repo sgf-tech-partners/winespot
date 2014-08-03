@@ -489,21 +489,13 @@ body {
 }
 #content #body .footer .featured {
 	float: left;
-	height: 314px;
 	margin: 0 0 0 24px;
 	padding: 0;
 	position: relative;
-	width: 198px;
 }
 #content #body .footer .featured h2 {
 	margin: 0 0 0 16px;
-	width: 180px;
-}
-#content #body .footer .featured a {
-	display: block;
-	left: 0;
-	position: absolute;
-	top: 44px;
+	width: 625px;
 }
 #content #body .footer .featured a:hover {
 	opacity: 0.8;
@@ -1025,4 +1017,8 @@ body {
 
 .wineclubbenefits li {
     padding-top: 3px;
+}
+.featured td {
+    min-width: 225px;
+    text-align: center;
 }
